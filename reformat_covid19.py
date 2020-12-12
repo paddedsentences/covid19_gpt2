@@ -293,7 +293,7 @@ def download_data():
         path = os.path.join(*[CDIR, 'data', filename])
         if not os.path.isdir(path[:-7]):
             if not os.path.isfile(path):
-                download_url(url, path)
+                download_url(covid_url, path)
 
             if '.gz' in filename:
                 # tar = tarfile.open(path, "r:gz")
