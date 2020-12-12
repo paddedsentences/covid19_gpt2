@@ -11,8 +11,9 @@ import tarfile
 import pandas as pd
 from tqdm import tqdm
 
-from covid19_gpt2.convenience_functions.utils import download_url, small_version, ProgressFileObject
-
+#original, kaggle broke with the reference to the home folder
+#from covid19_gpt2.convenience_functions.utils import download_url, small_version, ProgressFileObject
+from convenience_functions.utils import download_url, small_version, ProgressFileObject
 logger = logging.getLogger('mylogger')
 CDIR = os.path.dirname(os.path.realpath(__file__))
 DATADIR = os.path.join(CDIR, 'data')
