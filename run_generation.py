@@ -264,7 +264,7 @@ def main():
     email_results(
         text='\n\n===\n\n'.join(generated_sequences),
         name_experiment=' GPT2 generation ',
-        receiver_emails=['manucelotti@gmail.com'])
+        receiver_emails=['teachhealthinformatics@gmail.com'])
     return generated_sequences
 
 
