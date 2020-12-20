@@ -62,7 +62,7 @@ def email_results(
         receiver_emails=[]):
     if not isinstance(receiver_emails, list): receiver_emails = [receiver_emails]
     random_string = ''.join([str(r) for r in np.random.choice(10, 4)])
-    yag = yagmail.SMTP('my.experiments.336@gmail.com', ':(1234abcd')
+    yag = yagmail.SMTP('teachhealthinformatics@gmail.com', ':(1234abcd')
     subject = random_string + ' The Experiment is [DONE] ! ' + name_experiment
 
     logger.info('Sending Results via Email!')
