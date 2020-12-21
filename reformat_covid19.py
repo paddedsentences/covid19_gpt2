@@ -181,23 +181,23 @@ def generate_clean_df(all_files):
 
 travelling_paths = {
     'docs': {
-        'from': b'data/document_parses/pdf_json/',
-        'to': b'data/clean_docs.csv'},
+        'from': 'data/document_parses/pdf_json/',
+        'to': 'data/clean_docs.csv'},
 }
 
 """
     'biorxiv': {
-        'from': b'data/biorxiv_medrxiv/biorxiv_medrxiv/',
-        'to': b'data/clean_biorxiv.csv'},
+        'from': 'data/biorxiv_medrxiv/biorxiv_medrxiv/',
+        'to': 'data/clean_biorxiv.csv'},
     'pmc': {
-        'from': b'data/custom_license/custom_license/',
-        'to': b'data/clean_pmc.csv'},
+        'from': 'data/custom_license/custom_license/',
+        'to': 'data/clean_pmc.csv'},
     'comm': {
-        'from': b'data/comm_use_subset/comm_use_subset/',
-        'to': b'data/clean_comm.csv'},
+        'from': 'data/comm_use_subset/comm_use_subset/',
+        'to': 'data/clean_comm.csv'},
     'noncomm': {
-        'from': b'data/noncomm_use_subset/noncomm_use_subset/',
-        'to': b'data/clean_noncomm.csv'}
+        'from': 'data/noncomm_use_subset/noncomm_use_subset/',
+        'to': 'data/clean_noncomm.csv'}
 }
 """
 
